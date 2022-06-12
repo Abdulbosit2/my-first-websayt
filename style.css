@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 700px;
+  background: url("photo_2022-04-23_16-54-10.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.left {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.left button {
+  width: 140px;
+  height: 40px;
+  background: orangered;
+  border-radius: 50px;
+  border: transparent;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 45px;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.left button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 15px yellow;
+          box-shadow: 0 0 15px yellow;
+  color: yellow;
+}
+
+.left ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.left ul li {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.left ul li:hover {
+  cursor: pointer;
+}
+
+.right {
+  display: inline-block;
+  margin-left: 200px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.right h1 {
+  display: inline-block;
+}
+
+.right ul {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.right ul li {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.right ul li:hover {
+  cursor: pointer;
+}
+
+.right img {
+  width: 30px;
+  display: inline-block;
+  margin-left: 130px;
+}
+
+.right p {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.right p:hover {
+  cursor: pointer;
+}
+
+.body {
+  text-align: center;
+}
+
+.body h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-top: 70px;
+}
+
+.body p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.body button {
+  width: 130px;
+  height: 40px;
+  background: orangered;
+  color: white;
+  border-radius: 50px;
+  border: transparent;
+  margin-top: 30px;
+  font-weight: bold;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.body button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 15px yellow;
+          box-shadow: 0 0 15px yellow;
+  color: yellow;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background: #08083e;
+  text-align: center;
+  color: white;
+}
+
+.footer img {
+  width: 70px;
+  padding-top: 20px;
+}
+
+.footer p {
+  padding-top: 15px;
+}
+
+.footer2 {
+  width: 100%;
+  height: 350px;
+}
+
+.footer2 h4 {
+  -webkit-text-decoration: underline  brown;
+          text-decoration: underline  brown;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.footer2 h4:hover {
+  cursor: pointer;
+}
+
+.footer2 img {
+  width: 60px;
+  margin-left: 250px;
+  padding-top: 50px;
+}
+
+.footer2 h3 {
+  padding-left: 190px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer2 p {
+  padding-left: 150px;
+  margin-top: 15px;
+}
+
+.footer2 span {
+  padding-left: 170px;
+}
+
+.footer2 .salom1 {
+  display: inline-block;
+  margin-left: 75px;
+}
+
+.footer2 .salom2 {
+  display: inline-block;
+}
+
+.footer2 .h3 {
+  padding-left: 170px;
+}
+
+.footer2 .h4 {
+  padding-left: 155px;
+}
+
+.footer2 .salom3 {
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */
